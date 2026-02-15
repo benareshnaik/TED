@@ -1,45 +1,60 @@
 
-/* Universal */
+
 * {
-  border-radius: 8px;
-  margin: 0; }
-
-/* wholepage behind */
-body {
+  padding: 0;
   margin: 0;
-  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  text-align: justify; }
+  }
 
-  /* Header Styling */
+
+body {
+  background-color: #ffffff;
+  margin: 0;
+  padding: 0;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: justify; 
+  line-height: 1.6;
+}
+
+  
 header {
+margin: 0;
   color: rgb(70, 70, 70);
   font-family: 'Times New Roman', Times, serif;
   text-align: center;
-  background-color: rgb(246, 243, 240);
-  border-radius: 5px; }
+  background-color: rgb(223, 223, 223);
+  border-radius: 0px;}
 
-/* Navigation Bar Styling */
+  
+
+
 nav {
-  background-color: rgb(64, 63, 63);
+  background-color: rgb(223, 223, 223);
   color: rgb(255, 255, 255);
-  font-family: 'Times New Roman', Times, serif;
-  font-size:small; }
+  padding: 1%;
+  font-size:small;
+  text-align: center;
+}
 
-/* Styling of Anchor Links in Navigation Bar */
+
 nav a {
-  color: rgb(215, 215, 215); }
+  color: rgb(251, 251, 251);
+  
+}
 
-/* Styling of all buttons */
+
 button {
   color: rgb(8, 8, 8);
-  background-color: lightgray;
+  background-color: rgb(201, 201, 201);
   font-size: small;
   text-decoration: black;
-  border: 1px;
+  border: 2px;
   margin-top: 4px;
-  margin-bottom: 4px; }
+  margin-bottom: 4px;
+  margin-left: 2px;
+  border-radius: 3px;
+}
 
-/* card-container styling */
+
 .card-container {
   display: grid;
   grid-template-columns: 1fr;
@@ -50,7 +65,7 @@ button {
   background-color: rgb(246, 243, 240);
   gap: 8px; }
 
-/* All Cards Styling */
+
 .card {
   background: white;
   border-radius: 8px;
@@ -59,7 +74,7 @@ button {
   padding: 10px;
   gap: 10px; }
 
-/* Styling of images in all cards */
+
 .card img {
   width: 100%;
   object-fit: cover;
@@ -70,23 +85,28 @@ button {
     .card-container {
         grid-template-columns: 1fr 1fr;   /* 2 cards per row */
     } }
-/* Styling of footer */
+
+
 footer {
   background-color: rgb(246, 243, 240);
-  padding: 8px;
-  margin: 8px }
+  padding: 5px;
+  margin: 0; }
 
-/* Styling of all h3 headlines */
+
 h3 {
   background-color: rgb(236, 236, 236);
   border-radius: 8px;
   padding: 5px; }
 
-/* Styling of h3 in footer */
+
 footer h3 {
   background-color: rgb(246, 243, 240); }
 
 section p {
   text-indent: 40px;
   margin: 10px;
+}
+
+ul, ol {
+  padding: 4%;
 }
