@@ -1,0 +1,92 @@
+
+/* Universal */
+* {
+  border-radius: 8px;
+  margin: 0; }
+
+/* wholepage behind */
+body {
+  margin: 0;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: justify; }
+
+  /* Header Styling */
+header {
+  color: rgb(70, 70, 70);
+  font-family: 'Times New Roman', Times, serif;
+  text-align: center;
+  background-color: rgb(246, 243, 240);
+  border-radius: 5px; }
+
+/* Navigation Bar Styling */
+nav {
+  background-color: rgb(64, 63, 63);
+  color: rgb(255, 255, 255);
+  font-family: 'Times New Roman', Times, serif;
+  font-size:small; }
+
+/* Styling of Anchor Links in Navigation Bar */
+nav a {
+  color: rgb(215, 215, 215); }
+
+/* Styling of all buttons */
+button {
+  color: rgb(8, 8, 8);
+  background-color: lightgray;
+  font-size: small;
+  text-decoration: black;
+  border: 1px;
+  margin-top: 4px;
+  margin-bottom: 4px; }
+
+/* card-container styling */
+.card-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  background: white;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  overflow: hidden;
+  padding: 8px;
+  background-color: rgb(246, 243, 240);
+  gap: 8px; }
+
+/* All Cards Styling */
+.card {
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  overflow:hidden;
+  padding: 10px;
+  gap: 10px; }
+
+/* Styling of images in all cards */
+.card img {
+  width: 100%;
+  object-fit: cover;
+  border-radius: 10px; }
+
+/* Desktop View */
+@media (min-width: 768px) {
+    .card-container {
+        grid-template-columns: 1fr 1fr;   /* 2 cards per row */
+    } }
+/* Styling of footer */
+footer {
+  background-color: rgb(246, 243, 240);
+  padding: 8px;
+  margin: 8px }
+
+/* Styling of all h3 headlines */
+h3 {
+  background-color: rgb(236, 236, 236);
+  border-radius: 8px;
+  padding: 5px; }
+
+/* Styling of h3 in footer */
+footer h3 {
+  background-color: rgb(246, 243, 240); }
+
+section p {
+  text-indent: 40px;
+  margin: 10px;
+}
