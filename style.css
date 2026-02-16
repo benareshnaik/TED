@@ -83,7 +83,7 @@ button {
 /* Desktop View */
 @media (min-width: 768px) {
     .card-container {
-        grid-template-columns: 1fr 1fr;   /* 2 cards per row */
+        grid-template-columns: 1fr 1fr 1fr;   /* 2 cards per row */
     } }
 
 
