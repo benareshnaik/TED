@@ -2,8 +2,12 @@
 <html>
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>The Essential Dose</title>
+  <!-- Important for PWA -->
+  <link rel="manifest" href="manifest.json">
+  <meta name="theme-color" content="#0d6efd">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
   <meta
     name="description"
     content="In a world full of noise, The Essential Dose, brings you only what truly matters. We deliver important and impactful news updates — clearly, accurately, and without unnecessary clutter. Our focus is simple: essential information that keeps you informed and ahead."/>
@@ -12,6 +16,12 @@
 
 <body> <!-- This is what we see on the webpage -->
   
+  <script>
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('service-worker.js')
+        .then(() => console.log("Service Worker Registered"));
+    }
+  </script>
   
   <header> <!-- Header -->
      
@@ -33,7 +43,7 @@
     <a href="#concept"><button>CONCEPT</button></a>
     <a href="#newwords"><button>NEW WORDS</button></a>
     <a href="#asmallstory"><button>A SMALL STORY</button></a>
-    <a href="archieves.html"><button>ARCHIVE</button></a>
+    <a href="archieves.html"><button>ARCHIEVES</button></a>
     <a href="#bottom"><button>SCROLL DOWN</button></a>
      
   </nav>
